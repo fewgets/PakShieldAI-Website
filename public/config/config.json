@@ -1,0 +1,23 @@
+{
+  "apiBase": "https://6a49b6404325.ngrok-free.app",
+  "endpoints": {
+    "threat.emailProtection": "/email-classify",
+    "threat.intrusionDetection": "/ids-predict",
+    "threat.discordDetection": "/threat/discord",
+    "threat.telegramAnalysis": "/threat/telegram",
+    "threat.darkWebMonitoring": "/threat/darkweb",
+    "threat.socialMediaAnalysis": "/threat/social",
+    "threat.malwareIocCorrelation": "/threat/ioc-correlation",
+    "video.faceRecognition": "/surveillance/face/recognize",
+    "video.anomalyDetection": "/surveillance/anomaly/detect",
+    "video.weaponDetection": "/surveillance/weapon/detect",
+    "video.crowdAnalysis": "/video/crowd",
+    "video.suspiciousActivity": "/video/suspicious",
+    "video.perimeterBreach": "/video/perimeter-breach",
+    "border.droneDetection": "/border/drones/detect",
+    "border.suspiciousActivity": "/border/suspicious/detect",
+    "border.vehicleAnpr": "/border/vehicle-anpr",
+    "border.nightThermalPerson": "/border/night-thermal",
+    "border.smugglingRoutes": "/border/smuggling"
+  }
+}
