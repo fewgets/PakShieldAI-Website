@@ -515,6 +515,10 @@ export default function VideoModulePage({ params }: { params: { slug: string } }
     try {
       const response = await fetch(endpoint, {
         method: "POST",
+        headers: {
+          'ngrok-skip-browser-warning': 'true',
+          'User-Agent': 'PakShield-Frontend',
+        },
         body: formData,
         signal: controller.signal,
       })

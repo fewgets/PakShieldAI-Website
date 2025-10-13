@@ -71,7 +71,12 @@ export default function ThreatModulePage({ params }: { params: PageParams | Prom
     setEmailLoading(true)
     setEmailError(null)
     try {
-      const response = await fetch(endpoint)
+      const response = await fetch(endpoint, {
+        headers: {
+          'ngrok-skip-browser-warning': 'true',
+          'User-Agent': 'PakShield-Frontend',
+        }
+      })
       if (!response.ok) {
         throw new Error(`Request failed with status ${response.status}`)
       }
@@ -228,6 +233,10 @@ export default function ThreatModulePage({ params }: { params: PageParams | Prom
 
       const response = await fetch(endpoint, {
         method: 'POST',
+        headers: {
+          'ngrok-skip-browser-warning': 'true',
+          'User-Agent': 'PakShield-Frontend',
+        },
         body: formData,
       })
 
