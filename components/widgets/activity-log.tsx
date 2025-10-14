@@ -6,7 +6,7 @@ const items = [
   { id: 1, t: "12:01:24", source: "Email Protection", msg: "Phishing URL blocked", level: "high" },
   { id: 2, t: "12:03:08", source: "Video Anomaly", msg: "Unusual motion detected - Zone B", level: "med" },
   { id: 3, t: "12:05:16", source: "Border ANPR", msg: "Plate PK-AB123 flagged", level: "high" },
-  { id: 4, t: "12:06:02", source: "Dark Web", msg: "Credential dump mention", level: "low" },
+  { id: 4, t: "12:06:02", source: "APT Tracking", msg: "Suspected APT group activity detected", level: "low" },
   { id: 5, t: "12:07:31", source: "Crowd Analysis", msg: "Density spike near Gate 3", level: "med" },
 ]
 

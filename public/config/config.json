@@ -5,7 +5,7 @@
     "threat.intrusionDetection": "/ids-predict",
     "threat.discordDetection": "/threat/discord",
     "threat.telegramAnalysis": "/threat/telegram",
-    "threat.darkWebMonitoring": "/threat/darkweb",
+    "threat.aptTracking": "/threat/apt-tracking",
     "threat.socialMediaAnalysis": "/threat/social",
     "threat.malwareIocCorrelation": "/threat/ioc-correlation",
     "video.faceRecognition": "/surveillance/face/recognize",

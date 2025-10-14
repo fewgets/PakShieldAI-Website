@@ -78,7 +78,7 @@ export default function OverviewPage() {
       <section className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <div className="rounded-lg border p-4 transition hover-glow bg-card/90 backdrop-blur glow-border">
           <h3 className="mb-2 text-sm font-semibold">Threat Intelligence</h3>
-          <p className="text-xs text-muted-foreground">Email, Intrusion, Social, Dark Web</p>
+          <p className="text-xs text-muted-foreground">Email, Intrusion, Social, APT Tracking</p>
           <div className="mt-3 inline-flex items-center gap-2 rounded-md px-2 py-1 text-xs text-primary ring-1 ring-primary/30 bg-primary/10">
             Status: Operational • Last update: just now
           </div>

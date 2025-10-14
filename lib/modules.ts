@@ -16,7 +16,7 @@ export const DOMAIN_TITLES: Record<DomainKey, string> = {
 
 export const DOMAIN_SUMMARIES: Record<DomainKey, string> = {
   "threat-intelligence":
-    "Automated threat intel across communication channels, social platforms, and dark web surface.",
+    "Automated threat intel across communication channels, social platforms, and APT tracking.",
   "video-analytics": "Real-time vision analytics for restricted zones, anomaly detection, weapons, and crowd dynamics.",
   "border-security":
     "Persistent border monitoring including drones, vehicles (ANPR), night thermal detection and anomalies.",
@@ -53,11 +53,11 @@ export const MODULES: Record<DomainKey, ModuleItem[]> = {
       icon: "send",
     },
     {
-      slug: "dark-web-monitoring",
-      title: "Dark Web Monitoring",
-      description: "Track dumps, leaks, and sale of credentials.",
-      endpointKey: "threat.darkWebMonitoring",
-      icon: "moon",
+      slug: "apt-tracking",
+      title: "APT Tracking",
+      description: "Track Advanced Persistent Threats and nation-state actors.",
+      endpointKey: "threat.aptTracking",
+      icon: "target",
     },
     {
       slug: "social-media-analysis",
