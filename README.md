@@ -23,7 +23,7 @@ PakShield Defence AI is a cutting-edge **Next.js 15** application that provides 
 
 | Module | Description | Status |
 |--------|-------------|--------|
-| 🔍 **Threat Intelligence** | Email phishing detection, network intrusion detection, dark web monitoring | ✅ Active |
+| 🔍 **Threat Intelligence** | Email phishing detection, network intrusion detection, live monitoring | ✅ Active |
 | 🛡️ **Border Security** | Drone detection, suspicious activity tracking, thermal imaging | ✅ Active |
 | 📹 **AI Surveillance** | Face recognition, weapon detection, anomaly detection | ✅ Active |
 
